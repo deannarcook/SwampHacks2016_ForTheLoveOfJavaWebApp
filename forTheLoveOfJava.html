@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+	<script src="forTheLoveOfJava.js"></script>
+	<title>For the Love of Java</title>
+</head>
+<body onload="hideQuestions()">
+<!-- questions -->
+	<div id="q1Content">
+		<div class="questionBox">
+<!-- q1 -->
+			<p class="questions" id="q1"> All of the the following occur in Java EXCEPT...</p>
+		</div>
+		<div id="q1">
+			<img onclick="checkScoreQ1();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ1();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ1();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ1();increaseJavaScore();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ1();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> method overloading </p></a>
+			<p class="option2"> automatic garbage collection </p>
+			<p class="option3"> method overriding </p>
+			<p class="option4"> multiple inheritance </p>
+			<p class="option5"> polymorphism </p>
+		</div>
+	</div>
+<!-- q2 -->
+	<div id="q2Content">
+		<div class="questionBox">
+			<p class="questions" id="q2"> What language did the word "coffee" evolve from? </p>
+		</div>
+		<div id="q2">
+			<img onclick="checkScoreQ2();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ2();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ2();increaseCoffeeScore();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ2();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ2();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> Spanish </p></a>
+			<p class="option2"> French </p>
+			<p class="option3"> Arabic </p>
+			<p class="option4"> Mandarin </p>
+			<p class="option5"> German </p>
+		</div>
+	</div>
+<!-- q3 -->
+	<div id="q3Content">
+		<div class="questionBox">
+			<p class="questions" id="q3"> Which of the following is a looping statement? </p>
+		</div>
+
+		<div id="q3">
+			<img onclick="checkScoreQ3();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ3(); increaseJavaScore();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ3();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ3();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ3();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> For while </p>
+			<p class="option2"> For </p>
+			<p class="option3"> If </p>
+			<p class="option4"> Switch </p>
+			<p class="option5"> Conditional </p>
+		</div>
+	</div>
+<!-- q4 -->
+	<div id="q4Content">
+		<div class="questionBox">
+			<p class="questions" id="q4"> Which U.S. city has the largest number of coffee shops? </p>
+		</div>
+
+		<div id="q4">
+			<img onclick="checkScoreQ4();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ4();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ4();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ4();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ4();increaseCoffeeScore();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> New York City, New York </p></a>
+			<p class="option2"> Boise, Idaho </p>
+			<p class="option3"> Boston, Massachusetts </p>
+			<p class="option4"> Washington, D.C. </p>
+			<p class="option5"> Seatle, Washington </p>
+		</div>
+	</div>
+<!-- q5 -->
+	<div id="q5Content">
+		<div class="questionBox">
+			<p class="questions" id="q5"> Who is the inventor of Java? </p>
+		</div>
+		<div id="q5">
+			<img onclick="checkScoreQ5();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ5();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ5();increaseJavaScore();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ5();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ5();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> Ray Tomlinson </p>
+			<p class="option2"> Guido van Rossum </p>
+			<p class="option3"> James Gosling </p>
+			<p class="option4"> Bjarne Stroustrup </p>
+			<p class="option5"> Brendan Eich </p>
+		</div>
+	</div>
+<!-- q6 -->
+	<div id="q6Content">
+		<div class="questionBox">
+			<p class="questions" id="q6"> Which country consumes the most coffee per capita? </p>
+		</div>
+
+		<div id="q6">
+			<img onclick="checkScoreQ6();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ6();increaseCoffeeScore();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ6();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ6();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ6();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> The United States </p></a>
+			<p class="option2"> Finland </p>
+			<p class="option3"> Slovenia </p>
+			<p class="option4"> Serbia </p>
+			<p class="option5"> Denmark </p>
+		</div>
+	</div>
+<!-- q7  -->
+	<div id="q7Content">
+		<div class="questionBox">
+			<p class="questions" id="q7"> What is the size of a char? </p>
+		</div>
+
+		<div id="q7">
+			<img onclick="checkScoreQ7();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ7();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ7();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ7();increaseJavaScore();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ7();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> 4 bits </p></a>
+			<p class="option2"> 8 bits </p>
+			<p class="option3"> 10 bits </p>
+			<p class="option4"> 16 bits </p>
+			<p class="option5"> 1 byte </p>
+		</div>
+	</div>
+<!-- q8 -->
+	<div id="q8Content">
+		<div class="questionBox">
+			<p class="questions" id="q8"> Coffee is nicknamed Java after a(n)... </p>
+		</div>
+
+		<div id="q8">
+			<img onclick="checkScoreQ8();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ8();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ8();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ8();increaseCoffeeScore();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ8();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> Person </p></a>
+			<p class="option2"> Animal</p>
+			<p class="option3"> City</p>
+			<p class="option4"> Island </p>
+			<p class="option5"> Star</p>
+		</div>
+	</div>
+<!-- q9 -->
+	<div id="q9Content">
+		<div class="questionBox">
+			<p class="questions" id="q9"> Which of the following is not a valid data type? </p>
+		</div>
+
+		<div id="q9">
+			<img onclick="checkScoreQ9();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ9();increaseJavaScore();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ9();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ9();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="checkScoreQ9();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> Float </p></a>
+			<p class="option2"> Number </p>
+			<p class="option3"> Integer </p>
+			<p class="option4"> Boolean </p>
+			<p class="option5"> Char </p>
+		</div>
+	</div>
+<!-- q10 -->
+	<div id="q10Content">
+		<div class="questionBox">
+			<p class="questions" id="q10"> Which of the following is the largest Canadian based coffee company?</p>
+		</div>
+
+		<div id="q10">
+			<img onclick="checkScoreQ10();" class="choiceIcon1" src="coffeeIcon.png">
+			<img onclick="checkScoreQ10();" class="choiceIcon2" src="coffeeIcon.png">
+			<img onclick="checkScoreQ10();" class="choiceIcon3" src="coffeeIcon.png">
+			<img onclick="checkScoreQ10();" class="choiceIcon4" src="coffeeIcon.png">
+			<img onclick="increaseCoffeeScore();checkScoreQ10();" class="choiceIcon5" src="coffeeIcon.png">
+			<p class="option1"> Mc Cafe </p></a>
+			<p class="option2"> Costa Coffee </p>
+			<p class="option3"> Dunkin Donuts </p>
+			<p class="option4"> Starbucks </p>
+			<p class="option5"> Tim Hortons </p>
+		</div>
+	</div>
+
+	<div id="results">
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/8e/a7/27/8ea7277bf38307b8401f398e59e18873.jpg">
+		<div id="resultContent">
+		<p id="title"> Results </p>
+		<p id="cumulativeScore"> Cumulative Score</p>
+		<p id="coffeeScore"> Coffee Score </p>
+		<p id="javaScore"> Java Score </p>
+		<form method="get" action="forTheLoveOfJavaHomepage.html">
+			<input type="submit" id="backButton" value="START OVER" action="forTheLoveOfJavaHomepage.html" >
+		</form>
+		<p id="finalScore"></p>
+		<p id="finalCoffeeScore"></p>
+		<p id="finalJavaScore"></p>
+		<p id="youreBetterAt"></p>
+		</div>
+		
+<!-- answer key -->
+		<div>
+			<div class="keyBoxLeft">
+				<p class="questions"> All of the the following occur in Java EXCEPT... </p>
+				<p class="answers"><br><br> Multiple Inheritance <p>
+			</div>
+		</div>
+
+		<div>
+			<div class="keyBoxRight">
+				<p class="questions"> What language did the word "coffee" evolve from?</p>
+				<p class="answers"><br><br> Arabic <p>
+			</div>
+		</div>
+
+		<div>
+			<div class="keyBoxLeft">
+				<p class="questions"> Which of the following is a looping statement?</p>
+				<p class="answers"><br>For <br> Below is the syntax of a for loop <br> <code> for (int i = 0; i < 10; i++) <br> { //  statements }</code><p>
+			</div>
+		</div>
+
+		<div>
+			<div class="keyBoxRight">
+				<p class="questions"> Which U.S. city has the largest number of coffee shops?</p>
+				<p class="answers"><br><br> Seatle, Washington <br> The home of Starbucks Coffee! <p>
+			</div>
+		</div>
+
+		<div>
+			<div class="keyBoxLeft">
+				<p class="questions"> Who is the inventor of Java? </p>
+				<p class="answers"> James Gosling <br> Not to be mistaken for Ryan Gosling <p>
+			</div>
+		</div>
+		<div>
+			<div class="keyBoxRight">
+				<p class="questions"> Which country consumes the most coffee per capita? </p>
+				<p class="answers"><br><br> Finland <p>
+			</div>
+		</div>
+			<div>
+			<div class="keyBoxLeft">
+				<p class="questions"> What is the size of a char? </p>
+				<p class="answers"> 16 bits <br> A char is a data type that <br> holds a single character<p>
+			</div>
+		</div>
+		<div>
+			<div class="keyBoxRight">
+				<p class="questions"> Coffee is nicknamed after a(n)... </p>
+				<p class="answers"> An Island! <br> Specifically Java Island <br> located near Indonesia <p>
+			</div>
+		</div>
+			<div>
+			<div class="keyBoxLeft">
+				<p class="questions"> Which of the following is not a valid data type?</p>
+				<p class="answers"><br><br> Number <br> Number is not a data type <br> but it a clas in the java.lang library<p>
+			</div>
+		</div>
+		<div>
+			<div class="keyBoxRight">
+				<p class="questions"> Which of the following is the largest Canadian based coffee company?</p>
+				<p class="answers"><br><br><br>Tim Hortons <p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
